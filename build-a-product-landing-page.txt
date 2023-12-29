@@ -1,0 +1,217 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squishable Squishies</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <img src="" alt="" id="header-img" width="100px">
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a href="#About-Us" class="nav-link">About Us</a>
+          </li>
+          <li>
+            <a href="#form" class="nav-link">Subscribe</a>
+          </li>
+          <li>
+            <a href="#footer" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Tea Cute</h1>
+    <p class="header-p">Your favorite tea brews all in one place</p>
+    <hr class="top-hr">
+    <video controls id="video" src="https://vod-progressive.akamaized.net/exp=1703411036~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2316%2F13%2F336580092%2F1333914928.mp4~hmac=eda528c06e59b0740a18b33a76607619e6deb15fe19c7aa474f40bac780b1f5c/vimeo-prod-skyfire-std-us/01/2316/13/336580092/1333914928.mp4">
+      Your device does not support the video content.
+    </video>
+    <hr class="mid-hr">
+    <h2 id="About-Us">About Us</h2>
+    <p class="about-p">Our company started five years ago. When we realized a decreased love for different types of tea. <br>Our founder decided it was time to create his own company and introduce many types of tea people would enjoy.</p>
+    <hr>
+    <h2 class="sub">Subscribe to our email for updates on incoming tea.</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" name="email" type="email" placeholder="Enter your email here" required>
+      <input id="submit" type="submit" name="Submit">
+    </form>
+    <hr>
+    <footer id="footer">
+      <h3>Contact Us</h3>
+      <p class="con-p">Phone: (000)-000-0000</p>
+      <p class="con-p">Email: teacute@rando.com</p>
+      <p class="con-p">Address: 2215 Tea Cutie Lane</p>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #D6ADA4;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+#nav-bar {
+  position: sticky;
+  background-color: #BF8477;
+  padding: 10px;
+}
+
+nav ul {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+}
+
+a:hover {
+  background-color: #D6ADA4;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Tahoma', Georgia, sans-serif;
+  padding-top: 5rem;
+}
+
+.header-p {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 5px;
+}
+
+hr {
+  margin-top: 30px;
+  padding: 1px;
+  background-color: #755048;
+  border-color: #755048;
+}
+
+#video {
+  position: center;
+  width: 100%;
+  height: 80%;
+  margin-bottom: -4rem;
+  margin-top: -3rem;
+}
+
+#About-Us {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 50px;
+  padding-top: 3rem;
+}
+
+.about-p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.sub {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  overflow: hidden;
+  font-size: 30px;
+}
+form {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+input{
+  box-shadow: 80px 40px #000;
+}
+#email {
+  margin-left: 11rem;
+  display:flex;
+  margin-top: 1rem;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+#submit{
+  margin-left: 17.5rem;
+  margin-top: 1.5rem;
+  padding: 5px;
+  font-size: 15px;
+}
+
+footer {
+  padding-bottom: 15px;
+}
+
+h3 {
+  padding-top: 20px;
+  font-size: 22px;
+}
+.con-p {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+  #email {
+    margin-left: 4.5rem;
+  }
+  #submit {
+    margin-left: 11.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #video {
+    height: 50%;
+  }
+  .top-hr {
+    margin-bottom: 5rem;
+  }
+  .mid-hr {
+    margin-top: 6rem;
+  }
+  #email {
+    margin-left: 18rem;
+  }
+  #submit {
+    margin-left: 24.5rem;
+  }
+}
+@media only screen and (min-width: 700px) {
+  #email {
+    margin-left: 20rem;
+  }
+  #submit {
+    margin-left: 26.5rem;
+  }
+}
+
+** end of undefined **
+
