@@ -1,0 +1,122 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device=width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Fill Out A Quick Survey</h1>
+    <p id="description">Fill out this short survey detailing your experience with us</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name Here: <input type="text" id="name" name="name" placeholder="Enter Your Name Here" required /></label>
+        <label id="email-label" for="email">Email Here: <input type="email" id="email" name="email" required placeholder="Enter Your Email Here" /></label>
+        <label id="number-label" for="number"> Age (optional): <input type="number" id="number" min="15" max="100" placeholder="Age" /></label>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <label for="dropdown">Which of our services did you like best? 
+          <select id="dropdown">
+            <option>(select one)</option>
+            <option>Pedicure</option>
+            <option>Manicure</option>
+            <option>Hair Styling</option>
+            <option>Nail Design</option>
+            <option>Massage</option>
+          </select>
+        </label>
+        <label for="satisfied">Were you satisfied with our services? <br><input type="radio" id="satisfied" name="satisfied" value="yes" /> Yes</label>
+        <label for="satisfied"><input type="radio" id="satisfied" name="satisfied" value="no" /> No</label>
+      </fieldset>
+      <fieldset id="services">
+        <p>If yes, please check the services you were unhappy with.</p> 
+        <label for="manicure" id="manicure-label"><input type="checkbox" id="manicure" name="manicure" value="1" /> Manicure</label>
+          <label for="pedicure" id="pedicure-label"><input type="checkbox" id="pedicure" name="pedicure" value="2" /> Pedicure</label>
+          <label for="hair" id="hair-label"><input type="checkbox" id="hair" name="hair" value="3" /> Hair Styling</label>
+          <label for="massage" id="massage-label"><input type="checkbox" id="massage" name="massage" value="4" /> Massage</label>
+          <label for="staff" id="staff-label"><input type="checkbox" id="staff" name="staff" value="5" /> Spa Staff</label>
+          <label for="management" id="manage-label"><input type="checkbox" id="management" name="management" value="6" /> Spa Management</label>
+          <label for="owner" id="owner-label"><input type="checkbox" id="owner" name="owner" value="7" /> Spa Owner</label>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <label> Suggestions or comments? Leave them here.
+          <textarea rows="5" cols="40"></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background: linear-gradient(45deg, rgb(60, 0, 60), rgb(145,0, 145));
+  margin: 0;
+  padding: 0;
+}
+
+#title, #description {
+  text-align: center;
+  color: white;
+}
+
+#title {
+  padding-top: 10px;
+}
+
+form{
+  height: 100%;
+}
+
+#survey-form {
+  background: linear-gradient(rgb(30, 0, 30), rgb(95, 0, 95));
+  width: 100vw;
+  min-width: 350px;
+  max-width: 500px;
+  margin: auto auto;
+  color: white;
+  font-family: Georgia, Tahoma, Serif;
+}
+
+fieldset {
+  border: none;
+}
+
+#name-label, #email-label, #number-label {
+  display: block;
+  padding: 10px 0;
+  width: 100px;
+  }
+  #name, #email, #number {
+    margin-top: 5px;
+    width: 75vw;
+  }
+  #number {
+    padding: 2px;
+  }
+  #dropdown {
+    display: block;
+    margin: 10px 10px 10px 0;
+  }
+  #satisfied {
+    margin-top: 10px;
+  }
+  #manicure-label, #pedicure-label, #hair-label, #massage-label, #staff-label, #manage-label, #owner-label {
+    display: block;
+  }
+  #submit {
+    font-size: 15px;
+    padding-left: auto;
+    padding-right: auto;
+  }
+
+** end of undefined **
+
