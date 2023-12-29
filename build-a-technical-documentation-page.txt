@@ -1,0 +1,121 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A technical documentation page for all your HTML needs.">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Documentation</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>HTML Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Purpose">Purpose</a>
+      <a class="nav-link" href="#Basics">Basics</a>
+      <a class="nav-link" href="#Classes">Classes</a>
+      <a class="nav-link" href="#IDs">IDs</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>HTML is the basic coding language that will introduce you to the coding world.</p>
+        <p>Every website's base structure starts with HTML. As it does many things like: help screen readers, increase SEO, and tell the website what words to display on the page.</p>
+        <li>HTML coding might look something like this:</li>
+        <code>< body > < / body ></code>
+      </section>
+      <section class="main-section" id="Purpose">
+        <header>Purpose</header>
+        <p>HTML is the basic coding language for all websites. You could consider it the "skeleton" of the website. Even the words on this website were created with the help of HTML.</p>
+        <p>It can also help boost your ranking on search engine. Search Engine Optimization or "SEO" is also done in HTML. The next section will explain a couple of the attributes that will help with your SEO.</p>
+        <li>An example of boosting SEO which helps identify the language's website as English:</li>
+        <code> < html lang="en">  </code>
+      </section>
+      <section class="main-section" id="Basics">
+        <header>Basics</header>
+        <p>The first tag is a self-closing tag which means it does not need a closing tag like most other tags when creating HTML. This specific tag, "!DOCTYPE html" tells the internet browser what type of coding document you are using.</p>
+        <p>After the first self-closing tag you will need to use the "html" tag which does have a closing tag and every other tag except the first one will be put into this tag. Then there is the "head" tag and "body" tag which are the first two tags to be nestled in the "html" tag.</p>
+        <li>Here is how it would end up:</li>
+        <code>
+          < !DOCTYPE html ><br>
+          < html > <br>
+            < head >< /head > <br>
+            < body >< /body > <br>
+          < /html>
+        </code>
+      </section>
+      <section class="main-section" id="Classes">
+        <header>Classes</header>
+        <p>Classes helps the code identify which element you have if there is multiple of them.</p>
+        <p>It's important to assign classes that make sense to you and/or your team. One class can be assigned multiple elements. When assigning multiple classes put a space between each word.</p>
+        <li>Here's an example of a class with a singular element</li>
+        <code>
+          < div class="square"> < / div >
+        </code>
+      </section>
+      <section class="main-section" id="IDs">
+        <header>IDs</header>
+        <p>IDs are much more powerful than classes. They allow you to overrule any previous decisions.</p>
+        <p>Unlike classes, IDs are strictly unique. Each ID must not share a name with another.</p>
+        <li>Here is how to set up an ID for your html.</li>
+        <code>
+          < div id="identify"> < / div >
+        </code>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ @media screen and (max-width: 500px) {
+   body{
+     background-color: white;
+   }
+ }
+
+nav {
+  background-color: brown;
+  padding: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+a:hover {
+  color:white;
+}
+
+body {
+  color: black;
+  font: Tahoma;
+}
+
+header {
+  font-weight: bold;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  padding: 10px;
+}
+
+** end of undefined **
+
