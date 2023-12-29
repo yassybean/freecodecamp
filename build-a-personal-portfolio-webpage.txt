@@ -1,0 +1,149 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmin Bean's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#project-tile">Projects</a></li>
+        <li><a href="#footer">Find Out More</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <h1>Welcome</h1>
+      <p id="about-me">My name is Yasmin Bean. I am a programmer who is constantly learning new types of code and ways to apply it. <br><br>One of my favorite programming languages is HTML as it is the base for all websites. If you are interested in hiring me, take a look at the projects below.</p>
+    </section>
+    <hr>
+    <section id="projects">
+      <div class="project-tile">
+        <h2>Survey Form</h2>
+      <a href="https://codepen.io/yasminb-/pen/ExMjoBW" target="_blank">Click here to access</a>
+      </div>
+      <div class="project-tile">
+        <h2>Tribute Page</h2>
+        <a href="https://codepen.io/yasminb-/pen/eYXNVOd" target="_blank">Click here to access</a>
+      </div>
+      <div class="project-tile">
+        <h2>Technical Documentation</h2>
+        <a href="https://codepen.io/yasminb-/pen/oNVXEvE" target="_blank">Click here to access</a>
+      </div>
+      <div class="project-tile">
+        <h2>Product Landing Page</h2>
+        <a href="https://codepen.io/yasminb-/pen/KKEpQKp" target="_blank">Click here to access</a>
+      </div>
+    </section>
+    <hr>
+    <footer id="footer">
+      <a target="_blank" id="profile-link" href="https://www.freecodecamp.org/fcc3b44a0b2-dbc9-4a6a-b14c-4b5506826a78">freeCodeCamp Profile</a>
+      <p>Name: Yasmin Bean</p>
+      <p>Contact: Available on the freeCodeCamp website linked above.</p>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  padding: 1rem;
+  top: 0px;
+  background:linear-gradient(180deg, #5F3A55, black);
+  width: 100%;
+}
+nav ul li {
+  display: inline;
+  margin-left: 1rem;
+}
+nav ul li a {
+  color: #E0D9DE;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#welcome-section {
+  background: linear-gradient(45deg, #5F3A55, #898788);
+  width: 100vw;
+  height: 70%;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  
+}
+h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-family: 'Tahoma', sans-serif;
+  color: #E0D9DE;
+}
+#about-me {
+  text-align: center;
+  padding-top: 50px;
+  color: #B9B4B7;
+}
+#projects{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #5F3A55;
+}
+.project-tile {
+  margin-right: 1rem;
+  background-color: silver;
+  border: solid;
+  padding: 5rem;
+  margin-top: 1rem;
+}
+.project-tile:last-of-type {
+  margin-bottom: 1rem;
+}
+h2 {
+  padding-bottom: 0.5rem;
+}
+footer {
+  background-color: #5F3A55;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer a {
+  color: silver;
+  font-size: 18px;
+}
+footer p {
+  color: silver;
+  font-size: 18px;
+}
+hr {
+  border: pink;
+  padding-top: 1rem;
+}
+@media screen and (max-width: 200px) {
+  body {
+    display: flex;
+  }
+}
+
+** end of undefined **
+
