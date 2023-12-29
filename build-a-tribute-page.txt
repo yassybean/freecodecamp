@@ -1,0 +1,133 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A tribute page dedicated to the K-pop boy band BTS.">
+    <title>BTS Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">BTS</h1>
+      <figure id="img-div">
+        <img id="image" alt="An image of the popular group BTS" src="https://upload.wikimedia.org/wikipedia/commons/0/05/BTS_at_the_31st_Golden_Disk_Awards.jpg">
+        <figcaption id="img-caption">All seven members of BTS</figcaption>
+      </figure>
+      <section id="tribute-info">
+        <div>
+          <ul>
+            <li class="time-period">Training Period: 2010-2013</li>
+            <li class="period-description">During this time BTS would release songs and covers on SoundCloud and YouTube.</li>
+
+            <li class="time-period">School Trilogy: 2013-2014</li>
+            <li class="period-description">The first album they ever released was "2 COOL 4 SKOOL" and the last one during this time period was a song called "Wake Up."</li>
+
+            <li class="time-period">Youth Trilogy: 2015-2016</li>
+            <li class="period-description"> The album released during this era was, "The Most Beautiful Moment in Life, Pt. 1" and the Japanese version of their "YOUTH" album was released was the last thing they released in 2016.</li>
+
+            <li class="time-period">WINGS: 2016-2017</li>
+            <li class="period-description">The album, "WINGS" was released during this era. "Bon Voyage" season two was released last.</li>
+
+            <li class="time-period">Love Yourself: 2017-2019</li>
+            <li class="period-description">"Love Yourself: Her" was released in September 2017 while the ending to this era, "BTS World Tour: Love Yourself: Speak Yourself," was released ended in October 2019.</li>
+
+            <li class="time-period">Map of The Soul: 2019-2020</li>
+            <li class="period-description">In 2019 BTS members released free songs on SoundCloud. On October 10th and 11th "Map of The Soul ON:E" was released.</li>
+
+            <li class="time-period">BE: 2020-2021</li>
+            <li class="period-description">"BTS In The Soop" Season 1 was released mid-2020. In early 2021 they made a special appearance on, "Special Talk Show [Let's BTS]."</li>
+
+            <li class="time-period">BUTTER/ Permission To Dance: 2021-2022</li>
+            <li class="period-description">In May of 2021 BTS released their single "BUTTER." The "Permission To Dance" tour happens from Novemeber 2021 to April 2022.</li>
+            <li class="time-period">PROOF: 2022</li>
+            <li class="period-description">Their anthology album, "PROOF" was released in June of 2022 while "Yet To Come in Busan Concert" was performed in October of 2022.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="link"><a id="tribute-link" target="_blank" href="https://www.usbtsarmy.com/bts-eras/timeline">Click here</a> for more information.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  background-color: silver;
+}
+
+#title {
+  text-align: center;
+  padding: 15px 0;
+  background-color: darkgray;
+}
+
+#img-div {
+  background-color: lightgray;
+  padding-top: 30px;
+}
+
+img{
+  display: block;
+  box-shadow: 5px 5px 6px 8px darkgray;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#img-caption {
+  padding: 20px 0;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.time-period {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 0;
+  font-family: Tahoma, Serif;
+}
+
+.period-description {
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia, Serif;
+  padding-bottom: 5px;
+}
+
+.link {
+  font-family: Georgia, Serif;
+  font-size: 17px;
+  padding: 10px 6px;
+}
+
+#tribute-link {
+  color: black;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  font-weight: bold;
+}
+
+** end of undefined **
+
